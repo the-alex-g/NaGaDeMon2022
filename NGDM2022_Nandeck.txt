@@ -1,0 +1,70 @@
+LINKMULTI = QUANTITY
+LINK = "CardCSVs/Earth.csv"
+
+BORDER=RECTANGLE, #000000, 0.05
+UNIT=INCH
+PAGE=8.5,11,PORTRAIT,HV
+CARDSIZE=2.5,3.5
+
+[creature_limit] = 1-35
+[circle_width] = {2600/119}%
+[circle_height] = 22.4%
+[icon_path] = "Icons/Earth.png"
+
+VISUAL=, 10, 10
+FONT=Arial,18,F,#000000
+;Title
+TEXT="1-{(Name)}",[Name],{500/21}%,0%,{26500/357}%,11.8%
+;HeaderRect
+RECTANGLE=1-45,0%,0%,100%,11.8%,#000000,EMPTY,0.05
+
+;CardType
+TEXT="1-{(CARD TYPE)}",[CARD TYPE],0%,12.6%,100%,32.2%
+
+FONT=Arial,12,F,#000000
+
+;Categories
+TEXT="1-{(CATEGORIES)}",[CATEGORIES],0%,45.8%,100%,6.4%
+;CenterRect
+RECTANGLE=1-45,0%,45.8%,100%,7%,#000000,EMPTY,0.05
+
+;Abilities
+TEXT="1-{(SPECIAL)}",[SPECIAL],{1200/119}%,53.8%,{9500/119}%,28.2%,CENTER,WORDWRAP
+
+FONT=Arial,18,,#000000
+
+;Attack
+TEXT="1-{(ATTACK)}",[ATTACK],0%,81.8%,{8800/357}%,20%
+;AttackCircle(locked)
+CIRCLE=[creature_limit],{100/119}%,80.6%,[circle_width],[circle_height],#000000,EMPTY,0.05
+
+;Defense(locked)
+TEXT="1-{(DEFENSE)}",[DEFENSE],50% - [circle_width] / 2,80.6%,[circle_width],[circle_height]
+;Circle(locked)
+CIRCLE=[creature_limit],50% - [circle_width] / 2,80.6%,[circle_width],[circle_height],#000000,EMPTY,0.05
+
+;Health(locked)
+TEXT="1-{(HEALTH)}",[HEALTH],100% - [circle_width],80.6%,[circle_width],[circle_height]
+;HealthCircle(locked)
+CIRCLE=[creature_limit],{9300/119}%,80.6%,[circle_width],[circle_height],#000000,EMPTY,0.05
+
+;Cost(locked)
+TEXT="1-{(COST)}",[COST],0%,-2.5%,[circle_width],[circle_height]
+;CostCircle(locked)
+CIRCLE=1-45,0%,-2.5%,[circle_width],[circle_height],#000000,EMPTY,0.05
+
+;Icon
+IMAGE=,[ICON_PATH],{500/119}%,18%,{4700/357}%,9.4%
+
+;Creates simple back of card. Card 46 needs to be added manually to .csv file.
+;CIRCLE=46,{10100/357}%,23.8%,{17800/357}%,50%,#000000,EMPTY,0.1
+;CIRCLE=46,{8900/119}%,-26.6%,{17800/357}%,50%,#000000,EMPTY,0.1
+;CIRCLE=46,{-3000/119}%,-26.6%,{17800/357}%,50%,#000000,EMPTY,0.1
+;CIRCLE=46,{2900/-119}%,73.4%,{17800/357}%,50%,#000000,EMPTY,0.1
+;CIRCLE=46,{8800/119}%,73.4%,{17800/357}%,50%,#000000,EMPTY,0.1
+
+ENDVISUAL
+
+;Prepares card back for duplexing.
+;DUPLEX=1-45,46
+;PRINT=DUPLEX

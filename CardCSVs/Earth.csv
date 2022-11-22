@@ -1,0 +1,28 @@
+Name,Cost,Card Type,Categories,Attack,Defense,Health,Special,Quantity,45,300,160,157.1428571,251.4285714,,84.28571429
+Fungal Minion,2,Creature,Muck,0,0,1,This creature gets +1 Attack and +1 Defense per Fungal Minion you control.,3,35,6,0,0,3,,
+Troll,3,Creature,,3,2,4,,2,6,6,6,4,8,,35
+Sapling,1,Creature,Tree,1,1,2,,3,4,3,3,3,6,,
+Tree Herder,5,Creature,Tree,2,3,4,Other Tree creatures in the same group as this creature gain +1 Attack and +1 Defense.,1,,5,2,3,4,,
+Swamp Hulk,4,Creature,Muck,2,1,4,,2,,8,4,2,8,,
+Rotlord,5,Creature,Champion,3,1,3,Muck creatures in the same group as this creature gain +1 Attack and +1 Defense.,1,,5,3,1,3,,
+Ancient Gardener,5,Creature,Champion,2,3,4,Tree and plant cards cost one less mana to play (minimum of one).,1,,5,2,3,4,,
+Elder Tree,4,Creature,Tree,3,3,4,,2,,8,6,6,8,,
+Wolf,2,Creature,,2,1,1,,3,,6,6,3,3,,
+Bear,4,Creature,,3,2,4,,2,,8,6,4,8,,
+Giant Wasp,2,Creature,"Flying, Insect",2,1,1,,2,,4,4,2,2,,
+Earth Dragon,5,Creature,"Dragon, Flying",4,4,5,,1,,5,4,4,5,,
+Rot Grubs,4,Creature,Muck,0,1,1,This creature gets +1 Attack and +1 Health per creature card in your discard pile.,2,,8,0,2,2,,
+Great Spider,3,Creature,Insect,2,2,3,This creature gets +1 Attack against flying creatures.,2,,6,4,4,6,,
+Spinner,3,Creature,Insect,0,1,2,"When this card is played, repair one damage from an outpost. This creature gets +1 Attack against flying creatures.",2,,6,0,2,4,,
+Guardian Spirits,2,Creature,Spirit,0,3,3,,3,,6,0,9,9,,
+Giant Flytrap,3,Creature,Plant,2,1,2,"You may play this creature on an outpost like an upgrade. When flipped up, it joins the defending group.",2,,6,4,2,4,,
+Muck Harvester,4,Creature,"Plant, Muck",2,1,1,"When this creature is destroyed, return a creature in your discard to your hand.",1,,4,2,1,1,,
+Renewal,1,Spell,,,,,"Shuffle your discard pile, hand, and deck together. Draw six cards.",1,,,,,,,
+Overrun,3,Spell,,,,,Cast this spell after damaging an outpost. That outpost takes one additional damage.,1,,,,,,,
+Overpowering Might,5,Spell,,,,,Double the attack value of an attacking group.,1,,300,160,160,250,,84.58333333
+Song of Growth,2,Spell,,,,,Gain four mana.,1,,,,,,,
+Regrowth,2,Spell,,,,,Completely repair an outpost.,1,,300,160,157.1428751,251.4285714,,84.28571429
+New Growth,4,Spell,,,,,Gain a new outpost with five damage on it.,1,,,,,,,
+Vine Snare,2,Upgrade,"Plant, Trap",,,,Discard this card to remove one attacking creature.,2,,,,,,,
+Thorny Hedge,2,Upgrade,Plant,,,,The outpost gets +1 defense.,1,,,,,,,
+Morass,3,Upgrade,"Muck, Trap",,,,Discard this card to destroy one attacking creature with an Attack of 2 or less.,1,,,,,,,

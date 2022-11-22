@@ -1,0 +1,8 @@
+Name,Cost,Card Type,Categories,Attack,Defense,Health,Special,Quantity,45
+Sword Shard,1,Creature,Shard,1,0,0,,14,
+Shield Shard,1,Creature,Shard,0,1,1,,14,
+Warrior Shard,1,Creature,Shard,1,1,1,,4,
+Shard Dragon,1,Creature,"Dragon, Flying, Shard",3,3,3,,1,
+Shard Drifter,1,Creature,"Shard, Flying",0,1,1,,4,
+Skimmer Shard,1,Creature,"Shard, Flying",1,0,0,,4,
+Mana Shard,0,Creature,Shard,0,0,0,,4,

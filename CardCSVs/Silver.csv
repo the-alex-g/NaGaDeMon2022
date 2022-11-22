@@ -1,0 +1,26 @@
+Name,Cost,Card Type,Categories,Attack,Defense,Health,Special,Quantity,45
+Questor,2,Creature,Knight,2,1,2,,4,
+Changeling,2,Creature,,2,1,2,This creature counts as all factions and categories for card abilities.,4,25
+Dragon Caller,6,Creature,Champion,3,1,3,All dragons you control get +1 Attack and +1 Defense.,1,11
+Archers,3,Creature,Knight,2,1,2,This creature gets +1 Attack against flying creatures.,4,5
+Bannerlord,5,Creature,Champion,3,2,3,Knights in the same group as this creature get +1 Attack and +1 Defense.,1,
+Spire Knights,3,Creature,Knight,3,2,3,,4,
+Swamp Lurker,2,Creature,Muck,2,1,2,,4,
+Silver Knight,4,Creature,Knight,4,2,4,,2,
+Trapsetter,4,Creature,Champion,1,2,1,"While this creature is defending, you do not need to discard traps from the outpost this creature is defending in order to resolve their effects.",1,
+Silver Drake,4,Creature,Flying,3,2,3,,3,
+Silver Dragon,5,Creature,"Dragon, Flying",5,3,5,,1,
+Quest,,,,,,,"When you draft this card, replace it with one of the Quests or with a Questor creature. If two or more players drafted a Quest, resolve them in turn order.",4,
+Glittering Shaft,3,Spell,Light,,,,Either repair one damage from an outpost or deal one damage to a creature.,2,
+Mana Surge,0,Spell,,,,,Gain one mana.,4,
+Mana Draw,1,Spell,,,,,Gain three mana.,1,
+Repair,2,Spell,,,,,Repair one damage from an outpost.,4,
+Skyhook,1,Upgrade,Trap,,,,Discard this card to remove Flying from all of your opponent's flying creatures until the end of the turn.,2,
+Tree of Many Leaves,5,Upgrade,Tree,,,,"At the start of your turn, gain one mana.",1,
+Mana Vault,3,Upgrade,,,,,"Once per turn, you may spend one mana to place a token on this card. Once per turn, you may discard a token from this card to gain one mana.",2,
+Quest of the Eternal Flame,0,Quest,,,,,"At the end of the game, if you only have Fire cards in play (except this card), reveal a Fire secret card.",1,
+Quest of Nine Oceans,0,Quest,,,,,"At the end of the game, if you only have Water cards in play (except this card), reveal a Water secret card.",1,
+Quest of Endless Verdance,0,Quest,,,,,"At the end of the game, if you only have Earth cards in play (except this card), reveal a Earth secret card.",1,
+Quest of the Four Winds,0,Quest,,,,,"At the end of the game, if you only have Air cards in play (except this card), reveal a Air secret card.",1,
+Quest of the Shardi,0,Quest,,,,,"At the end of the game, if you have four or more Shard cards in play, reveal a Shard secret card",1,
+Quest of Ancient Metals,0,Quest,,,,,"At the end of the game, if you have five or more Silver cards in play, reveal a Silver secret card.",1,
